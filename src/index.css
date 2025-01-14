@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    background-color:#000000;
+    overflow: hidden;
+    font-weight: 300 !important;
+}
+
+
+.font-bold {
+  font-weight: 400 !important;
+}
+
+img {
+  max-width: 200%;
+}
+
+.tonconnectbtn  button {
+  background-color: #FF3D7C;
+}

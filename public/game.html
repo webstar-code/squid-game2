@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">     -->
+    <title>Game</title>
+    <style>
+      *, html, body {
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+      }
+      body {
+        background-color: #ffffff;
+      }
+      @font-face {
+        font-family: 'font';
+        src: url('./assets/font/font.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+        outline: #000000;
+        
+      }
+
+      .fontload{
+        visibility:hidden;
+        position: absolute;
+        left: -9999px;
+        text-shadow: -3px 2px 9px #000000;
+      }
+
+      input:focus {
+        border: none;
+      }
+
+      
+ 
+    </style>
+</head>
+
+<body>
+    <div class="fontload" style="font-family: 'font';">.</div>
+    <script src="./bundle.js"></script>
+</body>
+</html>
