@@ -466,7 +466,7 @@ const App: React.FC = () => {
                 src="/game.html"
                 title="Squid Game"
                 onLoad={handleIframeLoad}
-                className="bg-black md:mt-[-46px]"
+                className="bg-black md:mt-[-56px]"
                 style={{
                   width: 380,
                   height: activePage === "home" ? "100%" : 0,
@@ -631,7 +631,7 @@ const App: React.FC = () => {
               <img
                 src={binanceLogo}
                 alt="Exchange"
-                className="w-8 h-8 mx-auto"
+                className="w-6 h-6 mx-auto"
               />
               <p className="mt-1">Home</p>
             </div>
@@ -641,7 +641,7 @@ const App: React.FC = () => {
               } w-1/5 m-1 p-2 rounded-2xl`}
               onClick={() => handleNavigation("friends")}
             >
-              <Friends className="w-8 h-8 mx-auto " />
+              <Friends className="w-6 h-6 mx-auto " />
               <p className="mt-1">Friends</p>
             </div>
             <div
@@ -650,8 +650,8 @@ const App: React.FC = () => {
               } w-1/5 m-1 p-2 rounded-2xl`}
               onClick={() => handleNavigation("earn")}
             >
-              <Coins className="w-8 h-8 mx-auto" />
-              <p className="mt-1">Earn</p>
+              <Coins className="w-6 h-6 mx-auto" />
+              <p className="mt-1">Bounty Program</p>
             </div>
             <div
               className={`nav-item text-center text-[#E4DFDC] ${
@@ -659,8 +659,8 @@ const App: React.FC = () => {
               } w-1/5 m-1 p-2 rounded-2xl`}
               onClick={() => handleNavigation("airdrop")}
             >
-              <img src={main} alt="Airdrop" className="w-8 h-8 mx-auto" />
-              <p className="mt-1">Airdrop</p>
+              <img src={main} alt="Airdrop" className="w-6 h-6 mx-auto" />
+              <p className="mt-1">Collect Earnings</p>
             </div>
           </div>
 

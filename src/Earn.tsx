@@ -299,7 +299,7 @@ const Earn: React.FC = () => {
             reward={500}
             link="#"
             completed={!!taskComplete["YouTube"]}
-            onClick={() => handleTaskClick("YouTube", "#", "youtube", 500)}
+            onClick={() => handleTaskClick("YouTube", "https://www.youtube.com/@SquidGameArena", "youtube", 500)}
           />
         </div>
         {/* Daily Tasks Section */}

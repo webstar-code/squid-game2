@@ -73009,7 +73009,7 @@
       sfxVolume: 1,
       isShieldActive: !1,
       isSettingOn: !1,
-      speed: 1.2
+      speed: 0.5
     };
   function s(t) {
     return t.sys.canvas.width / 2;
@@ -73232,7 +73232,7 @@
   }
   class d extends Phaser.Physics.Arcade.Sprite {
     constructor(t, e, i) {
-      super(t, e - 65, i, "shot"),
+      super(t, e, i, "shot"),
         this.scene.add.existing(this),
         this.scene.physics.world.enable(this),
         this.setDepth(2),
@@ -74082,7 +74082,7 @@
           .setAlpha(0)
           .setInteractive({ cursor: "pointer" })
           .on("pointerup", () => {
-            window.open("https://www.youtube.com", "_blank");
+            window.open("https://www.youtube.com/@SquidGameArena", "_blank");
           })),
         a(this, this.moreBtn, 1200, 0.3, 1),
         (this.settingBtn = this.add

@@ -108,7 +108,7 @@ const Airdrop: React.FC = () => {
             className="text-4xl text-[#F6E7D4] font-lemon font-normal"
             style={{ textShadow: "1px 1px 2px #EA2E33" }}
           >
-            AirDrop
+            Collect Your Earnings
           </p>
         </div>
 
