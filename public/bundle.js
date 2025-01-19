@@ -73009,7 +73009,7 @@
       sfxVolume: 1,
       isShieldActive: !1,
       isSettingOn: !1,
-      speed: 0.5
+      speed: 1.2
     };
   function s(t) {
     return t.sys.canvas.width / 2;
